@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Streamlit deployment configuration
+# Safe to commit — contains no secrets.
+# ─────────────────────────────────────────────────────────────────────────────
+
+[server]
+headless            = true          # required for cloud hosting
+enableCORS          = false
+enableXsrfProtection = true         # CSRF protection on form submissions
+
+[browser]
+gatherUsageStats = false            # opt out of anonymous telemetry
+
+[theme]
+base            = "dark"
+backgroundColor         = "#06070f"
+secondaryBackgroundColor = "#0d1020"
+textColor       = "#e2e8f0"
+font            = "sans serif"

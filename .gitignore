@@ -1,0 +1,41 @@
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Local databases and temporary files
+*.db
+*.sqlite3
+
+# Editor/system files
+.vscode/
+.DS_Store
+# User database and private data
+*.db
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml

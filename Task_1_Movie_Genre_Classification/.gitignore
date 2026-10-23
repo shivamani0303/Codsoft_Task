@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+models/*.joblib
+outputs/*.txt
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+users.db
+users.db-shm
+users.db-wal
+.streamlit/secrets.toml
